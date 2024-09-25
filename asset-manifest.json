@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/eveportfolio/static/css/main.81c550ff.css",
-    "main.js": "/eveportfolio/static/js/main.e0f546f6.js",
+    "main.js": "/eveportfolio/static/js/main.4002b5a9.js",
     "static/js/453.8be1073f.chunk.js": "/eveportfolio/static/js/453.8be1073f.chunk.js",
     "static/media/image-icon-600nw-211642900.webp": "/eveportfolio/static/media/image-icon-600nw-211642900.cba7943bb1f7825fd563.webp",
     "index.html": "/eveportfolio/index.html",
     "main.81c550ff.css.map": "/eveportfolio/static/css/main.81c550ff.css.map",
-    "main.e0f546f6.js.map": "/eveportfolio/static/js/main.e0f546f6.js.map",
+    "main.4002b5a9.js.map": "/eveportfolio/static/js/main.4002b5a9.js.map",
     "453.8be1073f.chunk.js.map": "/eveportfolio/static/js/453.8be1073f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.81c550ff.css",
-    "static/js/main.e0f546f6.js"
+    "static/js/main.4002b5a9.js"
   ]
 }
