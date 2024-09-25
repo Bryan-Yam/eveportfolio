@@ -20,11 +20,15 @@ const HomePage = () => {
           <h2 className="w-full py-4 text-4xl font-cormorant">Fencing</h2>
         </div>
         <div>
-          <img src={defaultimage} alt="/" className="w-full" />
+          <Link to="/speaking" className="hover:bg-opacity-35">
+            <img src={defaultimage} alt="/" className="w-full" />
+          </Link>
           <h2 className="w-full py-4 text-4xl font-cormorant">Speaking</h2>
         </div>
         <div>
-          <img src={defaultimage} alt="/" className="w-full" />
+          <Link to="/modelling" className="hover:bg-opacity-35">
+            <img src={defaultimage} alt="/" className="w-full" />
+          </Link>
           <h2 className="w-full py-4 text-4xl font-cormorant">Modelling</h2>
         </div>
       </div>

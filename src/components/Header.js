@@ -8,13 +8,13 @@ function Header({
 }) {
   return (
     <header
-      className={`py-8 md:py-12 lg:py-16 px-10 md:px-16 lg:px-24 grid grid-cols-2 ${backgroundColorClass}`}>
-      <Link to="/">
-        <h1
-          className={`font-cormorant text-2xl md:text-4xl lg:text-7xl font-bold ${primaryColorClass}`}>
+      className={`py-8 md:py-12 lg:py-16 px-10 md:px-16 lg:px-24 grid grid-cols-2 justify-between ${backgroundColorClass}`}>
+      <h1
+        className={`font-cormorant text-2xl md:text-4xl lg:text-7xl font-bold ${primaryColorClass}`}>
+        <Link to="/" className={`inline-block`}>
           Evelyn Zheng
-        </h1>
-      </Link>
+        </Link>
+      </h1>
 
       <div
         className={`flex gap-4 lg:gap-16 items-center md:text-2xl lg:text-3xl justify-end font-cormorant ${secondaryColorClass}`}>
