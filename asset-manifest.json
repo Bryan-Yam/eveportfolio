@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/eveportfolio/static/css/main.81c550ff.css",
-    "main.js": "/eveportfolio/static/js/main.e365528f.js",
+    "main.css": "/eveportfolio/static/css/main.0559e567.css",
+    "main.js": "/eveportfolio/static/js/main.6950bbe8.js",
     "static/js/453.8be1073f.chunk.js": "/eveportfolio/static/js/453.8be1073f.chunk.js",
     "static/media/R6B_2389.jpg": "/eveportfolio/static/media/R6B_2389.39640bb0f1e890a80b65.jpg",
     "static/media/image-icon-600nw-211642900.webp": "/eveportfolio/static/media/image-icon-600nw-211642900.cba7943bb1f7825fd563.webp",
     "index.html": "/eveportfolio/index.html",
-    "main.81c550ff.css.map": "/eveportfolio/static/css/main.81c550ff.css.map",
-    "main.e365528f.js.map": "/eveportfolio/static/js/main.e365528f.js.map",
+    "main.0559e567.css.map": "/eveportfolio/static/css/main.0559e567.css.map",
+    "main.6950bbe8.js.map": "/eveportfolio/static/js/main.6950bbe8.js.map",
     "453.8be1073f.chunk.js.map": "/eveportfolio/static/js/453.8be1073f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81c550ff.css",
-    "static/js/main.e365528f.js"
+    "static/css/main.0559e567.css",
+    "static/js/main.6950bbe8.js"
   ]
 }
