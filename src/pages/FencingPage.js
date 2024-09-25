@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import defaultimg from "../assests/image-icon-600nw-211642900.webp";
+import fencingpagepic from "../assests/R6B_2389.jpg";
 import Footer from "../components/Footer";
 
 const FencingPage = () => {
@@ -46,7 +46,7 @@ const FencingPage = () => {
           </div>
         </div>
         <div className="w-full">
-          <img src={defaultimg} alt="/" className="w-full" />
+          <img src={fencingpagepic} alt="/" className="w-full" />
         </div>
       </div>
       <Footer />
