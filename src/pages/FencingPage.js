@@ -46,7 +46,12 @@ const FencingPage = () => {
           </div>
         </div>
         <div className="w-full">
-          <img src={fencingpagepic} alt="/" className="w-full" />
+          <img
+            src={fencingpagepic}
+            alt="/"
+            className="w-full"
+            style={{ marginTop: '70px' }} 
+          />
         </div>
       </div>
       <Footer />

@@ -33,12 +33,22 @@ const ModellingPage = () => {
         secondaryColorClass="text-primary_green"
         backgroundColorClass="bg-background_green"
       />
-      <div className="py-6 px-10 md:px-16 lg:px-24 place-item-center">
-        <h1 className="font-cormorant text-7xl py-6 text-primary_green">
-          Modelling Portfolio
-        </h1>
-        <img src={headlineimg} alt="/" />
-      </div>
+      <div className="py-6 px-10 md:px-16 lg:px-24 flex flex-col items-center relative">
+  <h1 className="font-cormorant text-7xl py-6 text-primary_green text-center">
+    Modelling Portfolio
+  </h1>
+  <div className="relative">
+    <img src={headlineimg} alt="/" className="mx-auto" />
+    <span
+      className="absolute font-cormorant text-primary_purple text-5xl transform"
+      style={{ top: 'calc(50% - 120px)', left: 'calc(50% + 50px)' }}
+    >
+      5'7"  38/28/38
+    </span>
+  </div>
+</div>
+
+
       <div>
         <p className="font-cormorant text-5xl text-primary_purple text-center py-8">
           All images below are barefaced shoots.
@@ -46,37 +56,33 @@ const ModellingPage = () => {
       </div>
       <div className="bg-background_purple grid lg:grid-cols-3 gap-4 px-10 md:px-16 lg:px-24 py-10">
         <div className="flex items-stretch">
-          <img src={img06} alt="/" className="w-full h-96 object-cover" />
+          <img src={img06} alt="/" className="w-full object-cover" />
         </div>
         <div className="flex flex-col gap-8">
-          <img src={img05} alt="/" className="w-full h-48 object-cover" />
-          <img src={img14} alt="/" className="w-full h-48 object-cover" />
+          <img src={img05} alt="/" className="w-full object-cover" />
+          <img src={img14} alt="/" className="w-full object-cover" />
         </div>
         <div className="flex items-stretch">
-          <img src={img03} alt="/" className="w-full h-96  object-cover" />
+          <img src={img03} alt="/" className="w-full object-cover" />
         </div>
       </div>
       <div className="bg-background_purple grid lg:grid-cols-3 gap-4 px-10 md:px-16 lg:px-24 py-10">
         <div className="items-stretch flex flex-col gap-8">
-          <img src={img01} alt="/" className="w-full h-96 object-cover" />
-          <img src={img15} alt="/" className="w-full h-48 object-cover" />
-          <img src={defaultimg} alt="/" className="w-full h-48 object-cover" />
-          <img src={defaultimg} alt="/" className="w-full h-48 object-cover" />
+          <img src={img01} alt="/" className="w-full object-cover" />
+          <img src={img15} alt="/" className="w-full object-cover" />
         </div>
         <div className="items-stretch flex flex-col gap-8">
-          <img src={img18} alt="/" className="w-full h-48 object-cover" />
-          <img src={img17} alt="/" className="w-full h-48 object-cover" />
+          <img src={img18} alt="/" className="w-full object-cover" />
+          <img src={img17} alt="/" className="w-full object-cover" />
           <img
             src={img21}
             alt="/"
-            className="w-full h-48 object-cover"
+            className="w-full object-cover"
           />{" "}
-          <img src={defaultimg} alt="/" className="w-full h-48 object-cover" />
         </div>
         <div className="items-stretch flex flex-col gap-8">
-          <img src={img20} alt="/" className="w-full h-96  object-cover" />
-          <img src={img02} alt="/" className="w-full h-48 object-cover" />
-          <img src={defaultimg} alt="/" className="w-full h-48 object-cover" />
+          <img src={img20} alt="/" className="w-full object-cover" />
+          <img src={img02} alt="/" className="w-full object-cover" />
         </div>
       </div>
       <Footer />
