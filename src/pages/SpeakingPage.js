@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import defaultimg from "../assests/image-icon-600nw-211642900.webp";
+import defaultimg from "../assests/00002.jpg";
+import contactimg from "../assests/rbcolympians.jpg"
 import ImageWithText from "../components/ImageWithText";
 
 const SpeakingPage = () => {
@@ -12,7 +13,7 @@ const SpeakingPage = () => {
         secondaryColorClass="text-primary_purple"
         backgroundColorClass="bg-background_purple"
       />
-      <div className="grid md:grid-cols-2 gap-80 px-10 md:px-16 lg:px-24 pb-8">
+      <div className="grid md:grid-cols-2 gap-10 px-10 md:px-16 lg:px-24 pb-8">
         <div>
           <h1 className="lg:text-7xl md:text-5xl text-3xl py-10 font-cormorant text-primary_green">
             Who is Evelyn?
@@ -57,14 +58,14 @@ const SpeakingPage = () => {
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 w-full gap-12 px-10 md:px-16 lg:px-24 py-8">
         <div className="w-full">
-          <ImageWithText imageSrc={defaultimg} text="Classroom Visits" />
+          <ImageWithText imageSrc={contactimg} text="Classroom Visits" />
         </div>
         <div className="w-full">
-          <ImageWithText imageSrc={defaultimg} text="Corporate Visits" />
+          <ImageWithText imageSrc={contactimg} text="Corporate Visits" />
         </div>
         <div className="w-full">
           <ImageWithText
-            imageSrc={defaultimg}
+            imageSrc={contactimg}
             text="Panels/Conferences/Podcasts"
           />
         </div>
